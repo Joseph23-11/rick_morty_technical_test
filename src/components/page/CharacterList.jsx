@@ -13,7 +13,7 @@ function CharacterList() {
           <div
             key={character.id}
             className="max-w-sm overflow-hidden shadow-lg flex flex-col border border-black"
-            style={{ borderRadius: "10px" }}
+            style={{ borderRadius: "10px", marginBottom: "20px" }}
           >
             <img
               className="w-full"
